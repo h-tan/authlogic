@@ -212,5 +212,6 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<activesupport>, [">= 0"])
   end
+  s.add_dependency("i18n", "0.5.0")
 end
 
